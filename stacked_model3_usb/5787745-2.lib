@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 5787745-2
+#
+DEF 5787745-2 J 0 40 Y Y 1 L N
+F0 "J" -200 630 50 H V L BNN
+F1 "5787745-2" -200 -700 50 H V L BNN
+F2 "TE_5787745-2" 0 0 50 H I L BNN
+F3 "TE Connectivity" 0 0 50 H I L BNN
+F4 "https://www.te.com/usa-en/product-5787745-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "5787745-2" 0 0 50 H I L BNN
+F7 "Compliant" 0 0 50 H I L BNN
+F8 "Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Automotive Box/Tray" 0 0 50 H I L BNN
+F9 "5787745-2" 0 0 50 H I L BNN
+F10 "Unavailable" 0 0 50 H I L BNN
+F11 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 200 -600 200 600 N
+P 2 0 0 6 200 600 -200 600 N
+P 2 0 0 6 -200 600 -200 -600 N
+P 2 0 0 6 -200 -600 200 -600 N
+X VBUS1 1A 400 500 200 L 40 40 0 0 W 
+X D1- 2A 400 400 200 L 40 40 0 0 B 
+X D1+ 3A 400 300 200 L 40 40 0 0 B 
+X GND1 4A 400 200 200 L 40 40 0 0 W 
+X SH S1 400 -500 200 L 40 40 0 0 P 
+X SH S2 400 -500 200 L 40 40 0 0 P 
+X SH S3 400 -500 200 L 40 40 0 0 P 
+X SH S4 400 -500 200 L 40 40 0 0 P 
+X VBUS2 1B 400 0 200 L 40 40 0 0 W 
+X D2- 2B 400 -100 200 L 40 40 0 0 B 
+X D2+ 3B 400 -200 200 L 40 40 0 0 B 
+X GND2 4B 400 -300 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

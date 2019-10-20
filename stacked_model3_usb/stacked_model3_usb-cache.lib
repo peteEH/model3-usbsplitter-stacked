@@ -1,0 +1,135 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 5787745-2_5787745-2
+#
+DEF 5787745-2_5787745-2 J 0 40 Y Y 1 L N
+F0 "J" -200 630 50 H V L BNN
+F1 "5787745-2_5787745-2" -200 -700 50 H V L BNN
+F2 "TE_5787745-2" 0 0 50 H I L BNN
+F3 "TE Connectivity" 0 0 50 H I L BNN
+F4 "https://www.te.com/usa-en/product-5787745-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "5787745-2" 0 0 50 H I L BNN
+F7 "Compliant" 0 0 50 H I L BNN
+F8 "Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Automotive Box/Tray" 0 0 50 H I L BNN
+F9 "5787745-2" 0 0 50 H I L BNN
+F10 "Unavailable" 0 0 50 H I L BNN
+F11 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -200 -600 200 -600 N
+P 2 0 0 6 -200 600 -200 -600 N
+P 2 0 0 6 200 -600 200 600 N
+P 2 0 0 6 200 600 -200 600 N
+X VBUS1 1A 400 500 200 L 40 40 0 0 W
+X VBUS2 1B 400 0 200 L 40 40 0 0 W
+X D1- 2A 400 400 200 L 40 40 0 0 B
+X D2- 2B 400 -100 200 L 40 40 0 0 B
+X D1+ 3A 400 300 200 L 40 40 0 0 B
+X D2+ 3B 400 -200 200 L 40 40 0 0 B
+X GND1 4A 400 200 200 L 40 40 0 0 W
+X GND2 4B 400 -300 200 L 40 40 0 0 W
+X SH S1 400 -500 200 L 40 40 0 0 P
+X SH S2 400 -500 200 L 40 40 0 0 P
+X SH S3 400 -500 200 L 40 40 0 0 P
+X SH S4 400 -500 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_USB-DVI-HDMI-Connectors_UP2-AH-1-TH
+#
+DEF dk_USB-DVI-HDMI-Connectors_UP2-AH-1-TH J 0 40 Y Y 1 F N
+F0 "J" -50 330 60 H V C CNN
+F1 "dk_USB-DVI-HDMI-Connectors_UP2-AH-1-TH" -140 20 60 V V C CNN
+F2 "digikey-footprints:USB_Male_A_UP2-AH-1-TH" 200 200 60 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf" 200 300 60 H I L CNN
+F4 "102-3996-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "UP2-AH-1-TH" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "USB, DVI, HDMI Connectors" 200 700 60 H I L CNN "Family"
+F8 "https://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/cui-inc/UP2-AH-1-TH/102-3996-ND/6187911" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN PLUG USB2.0 TYPEA 4POS R/A" 200 1000 60 H I L CNN "Description"
+F11 "CUI Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -75 275 45 -175 0 1 0 N
+S 45 -75 20 -125 0 1 0 F
+S 45 25 20 -25 0 1 0 F
+S 45 125 20 75 0 1 0 F
+S 45 175 20 225 0 1 0 F
+S 45 275 105 -175 0 1 0 N
+P 5 0 1 0 -90 290 120 290 120 -190 -90 -190 -90 290 f
+X ~ 1 200 200 80 L 50 50 1 1 P
+X ~ 2 200 100 80 L 50 50 1 1 P
+X ~ 3 200 0 80 L 50 50 1 1 P
+X ~ 4 200 -100 80 L 50 50 1 1 P
+X ~ SH 0 -300 108 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

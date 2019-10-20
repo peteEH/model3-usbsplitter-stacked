@@ -1,0 +1,237 @@
+EESchema Schematic File Version 4
+LIBS:stacked_model3_usb-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L stacked_model3_usb-rescue:UP2-AH-1-TH-dk_USB-DVI-HDMI-Connectors J1
+U 1 1 5D597CD1
+P 1450 2850
+F 0 "J1" H 1513 3327 60  0000 C CNN
+F 1 "UP2-AH-1-TH" H 1513 3221 60  0000 C CNN
+F 2 "digikey-footprints:USB_Male_A_UP2-AH-1-TH" H 1650 3050 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf" H 1650 3150 60  0001 L CNN
+F 4 "102-3996-ND" H 1650 3250 60  0001 L CNN "Digi-Key_PN"
+F 5 "UP2-AH-1-TH" H 1650 3350 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1650 3450 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1650 3550 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf" H 1650 3650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/UP2-AH-1-TH/102-3996-ND/6187911" H 1650 3750 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN PLUG USB2.0 TYPEA 4POS R/A" H 1650 3850 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 1650 3950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 4050 60  0001 L CNN "Status"
+	1    1450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5D598643
+P 2350 2600
+F 0 "#PWR01" H 2350 2450 50  0001 C CNN
+F 1 "+5V" H 2365 2773 50  0000 C CNN
+F 2 "" H 2350 2600 50  0001 C CNN
+F 3 "" H 2350 2600 50  0001 C CNN
+	1    2350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2650 2350 2650
+Wire Wire Line
+	2350 2650 2350 2600
+Wire Wire Line
+	1650 2950 2350 2950
+$Comp
+L power:GND #PWR02
+U 1 1 5D598CD0
+P 2350 3300
+F 0 "#PWR02" H 2350 3050 50  0001 C CNN
+F 1 "GND" H 2355 3127 50  0000 C CNN
+F 2 "" H 2350 3300 50  0001 C CNN
+F 3 "" H 2350 3300 50  0001 C CNN
+	1    2350 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3150 1450 3250
+Wire Wire Line
+	1450 3250 2350 3250
+Wire Wire Line
+	2350 2950 2350 3250
+Connection ~ 2350 3250
+Wire Wire Line
+	2350 3250 2350 3300
+$Comp
+L stacked_model3_usb-rescue:5787745-2-5787745-2 J2
+U 1 1 5D59A427
+P 6150 3150
+F 0 "J2" H 5900 3200 50  0000 R CNN
+F 1 "5787745-2" H 5700 3200 50  0000 R CNN
+F 2 "5787745-2:TE_5787745-2" H 6150 3150 50  0001 L BNN
+F 3 "TE Connectivity" H 6150 3150 50  0001 L BNN
+F 4 "https://www.te.com/usa-en/product-5787745-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 6150 3150 50  0001 L BNN "Field4"
+F 5 "None" H 6150 3150 50  0001 L BNN "Field5"
+F 6 "5787745-2" H 6150 3150 50  0001 L BNN "Field6"
+F 7 "Compliant" H 6150 3150 50  0001 L BNN "Field7"
+F 8 "Conn USB 2.0 Type A RCP/RCP 4/4 POS Solder RA Thru-Hole 8 Terminal 2 Port Automotive Box/Tray" H 6150 3150 50  0001 L BNN "Field8"
+F 9 "5787745-2" H 6150 3150 50  0001 L BNN "Field9"
+F 10 "Unavailable" H 6150 3150 50  0001 L BNN "Field10"
+F 11 "None" H 6150 3150 50  0001 L BNN "Field11"
+	1    6150 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3150 5300 3150
+Wire Wire Line
+	5300 3150 5300 2650
+Wire Wire Line
+	5300 2650 5750 2650
+Wire Wire Line
+	5750 2950 5550 2950
+Wire Wire Line
+	5550 2950 5550 3450
+Wire Wire Line
+	5550 3650 5750 3650
+Wire Wire Line
+	5750 3450 5550 3450
+Connection ~ 5550 3450
+Wire Wire Line
+	5550 3450 5550 3650
+Text Notes 6450 3350 0    59   ~ 0
+DATA PORT
+Text Notes 6450 2850 0    59   ~ 0
+POWER/CHARGE\nPORT
+Wire Wire Line
+	5300 2650 2350 2650
+Connection ~ 5300 2650
+Connection ~ 2350 2650
+$Comp
+L power:GND #PWR07
+U 1 1 5D5A0A13
+P 5550 3750
+F 0 "#PWR07" H 5550 3500 50  0001 C CNN
+F 1 "GND" H 5555 3577 50  0000 C CNN
+F 2 "" H 5550 3750 50  0001 C CNN
+F 3 "" H 5550 3750 50  0001 C CNN
+	1    5550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3750 5550 3650
+Connection ~ 5550 3650
+$Comp
+L power:+5V #PWR03
+U 1 1 5D5A10BB
+P 3000 3350
+F 0 "#PWR03" H 3000 3200 50  0001 C CNN
+F 1 "+5V" H 3015 3523 50  0000 C CNN
+F 2 "" H 3000 3350 50  0001 C CNN
+F 3 "" H 3000 3350 50  0001 C CNN
+	1    3000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5D5A1A17
+P 3000 3550
+F 0 "C1" H 3092 3588 50  0000 L CNN
+F 1 "4.7uF|0805" H 3092 3505 39  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 3550 50  0001 C CNN
+F 3 "~" H 3000 3550 50  0001 C CNN
+	1    3000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3450 3000 3350
+$Comp
+L power:GND #PWR04
+U 1 1 5D5A2C03
+P 3000 3750
+F 0 "#PWR04" H 3000 3500 50  0001 C CNN
+F 1 "GND" H 3005 3577 50  0000 C CNN
+F 2 "" H 3000 3750 50  0001 C CNN
+F 3 "" H 3000 3750 50  0001 C CNN
+	1    3000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3750 3000 3650
+$Comp
+L power:+5V #PWR05
+U 1 1 5D5A6548
+P 3600 3350
+F 0 "#PWR05" H 3600 3200 50  0001 C CNN
+F 1 "+5V" H 3615 3523 50  0000 C CNN
+F 2 "" H 3600 3350 50  0001 C CNN
+F 3 "" H 3600 3350 50  0001 C CNN
+	1    3600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5D5A6552
+P 3600 3550
+F 0 "C2" H 3692 3588 50  0000 L CNN
+F 1 "22uF|1210" H 3692 3505 39  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3600 3550 50  0001 C CNN
+F 3 "~" H 3600 3550 50  0001 C CNN
+	1    3600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3450 3600 3350
+$Comp
+L power:GND #PWR06
+U 1 1 5D5A655D
+P 3600 4100
+F 0 "#PWR06" H 3600 3850 50  0001 C CNN
+F 1 "GND" H 3605 3927 50  0000 C CNN
+F 2 "" H 3600 4100 50  0001 C CNN
+F 3 "" H 3600 4100 50  0001 C CNN
+	1    3600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4100 3600 3950
+$Comp
+L Device:R_Small_US R1
+U 1 1 5D5AA94E
+P 3600 3850
+F 0 "R1" H 3668 3888 50  0000 L CNN
+F 1 "2|0805" H 3668 3805 39  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3600 3850 50  0001 C CNN
+F 3 "~" H 3600 3850 50  0001 C CNN
+	1    3600 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3750 3600 3650
+Wire Wire Line
+	1650 2750 4900 2750
+Wire Wire Line
+	4900 2750 4900 3250
+Wire Wire Line
+	4900 3250 5750 3250
+Wire Wire Line
+	5750 3350 4800 3350
+Wire Wire Line
+	4800 3350 4800 2850
+Wire Wire Line
+	4800 2850 1650 2850
+Wire Wire Line
+	5750 2750 5700 2750
+Wire Wire Line
+	5700 2750 5700 2850
+Wire Wire Line
+	5700 2850 5750 2850
+$EndSCHEMATC
