@@ -12,3 +12,12 @@ UP2-AH-1-TH     1           plug, type-A, usb
 22uF Cap        1           Any capacitor, 1210 package, 10V or higher rating, 10uF to 47uF cap range
 
 PCB             1           Order PCB from JLC PCB or similar fab house   (QTY 5 for $2 @ JLC)
+
+
+
+
+
+## LICENSE ##
+Hardware License is Creative Commons - Attribution 3.0
+
+Feel free to use these files to learn, explore electronics.
